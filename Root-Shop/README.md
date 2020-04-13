@@ -6,7 +6,7 @@ _Dans le cadre du Projet E-Shop 2020 UF Technologies WEB & Base de données, no
 _Réalisé par CEBERIO Pierre **[@PierreYnov](https://github.com/PierreYnov)** et DIAS Steven **[@StevenDias33](https://github.com/StevenDias33)** ._
 
 
-![img](https://github.com/PierreYnov/CTF-Sites/slides/images/rootshop.png)
+![img](https://github.com/PierreYnov/CTF-Sites/tree/master/Root-Shop/slides/images/rootshop.png)
 
 ## Description du site
 
