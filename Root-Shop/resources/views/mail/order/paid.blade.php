@@ -1,14 +1,14 @@
 @component('mail::message')
-# Invoice Paid
+# Facture du paiement
 
-Merci pour l'achat
+Merci pour l'achat cher client
 
 Voici votre reçu
 
 <table class="table">
     <thead>
         <tr>
-            <th>Nom du produit</th>
+            <th>Produit(s)</th>
             <th>quantité</th>
             <th>prix</th>
         </tr>
@@ -18,13 +18,13 @@ Voici votre reçu
         <tr>
             <td scope="row">{{ $item->name }}</td>
             <td>{{ $item->pivot->quantity }}</td>
-            <td>{{ $item->pivot->price }}</td>
+            <td>{{ $item->pivot->price }}€</td>
         </tr>
         @endforeach
     </tbody>
 </table>
 
-Total : {{$order->grand_total}}
+Total : {{$order->grand_total}}€
 
 
 @component('mail::button', ['url' => ''])
@@ -32,5 +32,5 @@ Voir
 @endcomponent
 
 Merci,<br>
-{{ config('app.name') }}
+Root Shop
 @endcomponent
